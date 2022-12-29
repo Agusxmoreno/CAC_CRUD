@@ -1,0 +1,139 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 29 dic 2022, 16:35:21
+    Author     : agust
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  background-image: url('https://images.unsplash.com/photo-1526289034009-0240ddb68ce3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contenedor{
+    margin: 40px 40px 40px 40px;
+    width: 95%;
+    height: 550px;
+    background-color: #0B2624;
+    border-radius: 10px;
+}
+
+.contenedor2{
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 50%;
+    height: 720px;
+    background-color: #0B2624;
+    border-radius: 10px;
+     font-family: 'Helvetica';
+}
+
+.contenedor3{
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 50%;
+    height: 820px;
+    background-color: #0B2624;
+    border-radius: 10px;
+     font-family: 'Helvetica';
+}
+
+h1{
+    color: #D5E7F2;
+    font-family: 'Helvetica';
+    font-size: 24pt;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+}
+
+#btn-agregar{
+    float: right !important;
+    margin-right: 70px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: 'Helvetica';
+    font-size: 12pt;
+    border-radius: 30px !important;
+ 
+}
+
+#btn-agregar:hover{
+    background-color:#7EBFB3 !important;  
+    color: white;
+}
+
+table{
+    color: #D5E7F2 !important;
+     font-family: 'Helvetica';
+
+}
+
+th{
+    color: #0B2624;
+ background-color: #7EBFB3 !important;
+}
+
+i{
+    color: #C9EBF2 !important;
+}
+
+i:hover{
+    color: #7EBFB3 !important;
+}
+
+
+.title{
+   color: #D5E7F2;
+    font-family: 'Helvetica';
+    font-size: 24pt;
+    text-align: center;
+   padding-top: 30px;
+}
+
+label{
+    color: #D5E7F2;
+    padding-top: 5px;
+    padding-bottom: 2px;
+}
+
+#btn-nuevo{
+    float: right !important;
+    margin-right: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Helvetica';
+    font-size: 12pt;
+    border-radius: 20px !important;
+ 
+}
+
+#btn-nuevo:hover{
+    background-color:#7EBFB3 !important;  
+    color: white;
+}
+
+#btn-mod{
+    float: right !important;
+    margin-right: 32px;
+    margin-top: -20px;
+    font-family: 'Helvetica';
+    font-size: 12pt;
+    border-radius: 20px !important;
+ 
+}
+
+#btn-mod:hover{
+    background-color:#7EBFB3 !important;  
+    color: white;
+}
